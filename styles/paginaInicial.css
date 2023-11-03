@@ -72,3 +72,21 @@ body{
 .login-carrinho{
     margin-right: 2vw;
 }
+/* Sessão 1 */
+.Banner-Grande1{
+    padding-top: 5.6vh;
+    padding-bottom: 5.6vh;
+    width: 90vw;
+}
+/* Sessão 2 */
+.sessao2{
+    background: rgba(255, 255, 255, 0.08);
+}
+.texto2{
+    color: white;
+}
+.titulo-imagem {
+    color: white;
+    display: block; /* Garante que o título seja tratado como um bloco para centralização */
+    text-align: center; /* Centraliza o texto */
+}
