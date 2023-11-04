@@ -123,10 +123,31 @@ body {
 }
 
 /*PRODUTOS*/
-.card-body{
+.card-body {
     height: 180px !important;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Isso empurra o conteúdo para cima e o preço para baixo */
-    height: 100%; /* Isso garante que o card-body ocupe toda a altura disponível do card */
+    justify-content: space-between;
+    /* Isso empurra o conteúdo para cima e o preço para baixo */
+    height: 100%;
+    /* Isso garante que o card-body ocupe toda a altura disponível do card */
+}
+
+/* Footer */
+.tf-1 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.topicoF-2 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer{
+    background: rgba(0, 0, 0, 0.50);
 }
