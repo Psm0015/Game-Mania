@@ -11,6 +11,7 @@
     <!-- CSS PERSONALIZADO -->
     <link rel="stylesheet" href="styles/paginaInicial.css">
     <title>Menu Inicial</title>
+    <!-- DESENVOLVIDO POR PEDRO SANTOS DA MOTA -->
 </head>
 
 <body>
@@ -251,13 +252,16 @@
                             <input type="checkbox" class="form-check-input" id="showPassword">
                             <label class="form-check-label" for="showPassword">Mostrar Senha</label>
                         </div>
+                        <div class="mb-3">
+                            <p>Não possui conta?<a href="cadastro.html">cadastre-se</a></p>
+                        </div>
                         <button type="submit" class="btn btn-primary">Entrar</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
+    <button onclick="voltartopo()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
 </body>
 <!-- IMPORTAÇÕES -->
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
@@ -266,6 +270,8 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 <!-- SCRIPTS -->
+<script src="scripts/jsonprds.js"></script>
 <script src="scripts/produtos-menu.js"></script>
+<script src="scripts/main.js"></script>
 
 </html>

@@ -10,7 +10,6 @@ body {
     border: 0;
     margin: 0;
 }
-
 /* NAVEGAÇÃO */
 /* Navegação 1 */
 .nav-1 {
@@ -84,60 +83,6 @@ body {
 .login-carrinho {
     margin-right: 2vw;
 }
-
-/* Sessão 1 */
-.Banner-Grande1 {
-    padding-top: 5.6vh;
-    padding-bottom: 5.6vh;
-    width: 90vw;
-}
-
-/* Sessão 2 */
-.sessao2 {
-    background: rgba(255, 255, 255, 0.08);
-}
-
-.texto2 {
-    text-transform: uppercase;
-    font-size: 45px;
-    color: white;
-}
-
-.titulo-imagem {
-    color: white;
-    display: block;
-    /* Garante que o título seja tratado como um bloco para centralização */
-    text-align: center;
-    /* Centraliza o texto */
-}
-
-/* Sessão 3 */
-.produto {
-    background: rgba(255, 255, 255, 0.08);
-    color: white;
-    cursor: pointer;
-}
-
-.preco {
-    color: #0072FF;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-/*PRODUTOS*/
-.card-body {
-    height: 180px !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* Isso empurra o conteúdo para cima e o preço para baixo */
-    height: 100%;
-    /* Isso garante que o card-body ocupe toda a altura disponível do card */
-}
-
 /* Footer */
 .tf-1 {
     color: #FFF;
@@ -156,22 +101,3 @@ body {
 footer{
     background: rgba(0, 0, 0, 0.50);
 }
-/* BOTAO DE VOLTAR PARA CIMA */
-#myBtn {
-    display: none; 
-    position: fixed;
-    bottom: 20px; 
-    right: 30px;
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color: black; 
-    cursor: pointer; 
-    padding: 15px;
-    border-radius: 10px; 
-  }
-  
-  #myBtn:hover {
-    background-color: #171D25;
-  }
-  
