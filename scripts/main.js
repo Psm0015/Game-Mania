@@ -16,3 +16,14 @@ function scrollFuncao() {
     document.getElementById("myBtn").style.display = "none";
   }
 }
+////////////////////
+//FUNÇÃO DE LOGIN//
+///////////////////
+
+function login(){
+    if($('#email').val() != "" & $('#password').val()){
+        alertaSucesso("Sucesso ao fazer login")
+    }else{
+        alertaErro("Não foi possível fazer login")
+    }
+}
