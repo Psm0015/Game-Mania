@@ -67,6 +67,10 @@ body {
 }
 
 /* Navegação 2 */
+.login:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .navbar {
     background: #171D25 !important;
 }

@@ -152,8 +152,26 @@ let produtos =
 /////////////////////////////
 // FUNÇÕES DE PREENCHIMENTO//
 /////////////////////////////
-$('#sessao-produtos1').html(produtos1())
-$('#sessao-produtos2').html(produtos2())
+document.addEventListener('DOMContentLoaded', (event) => {
+    $('#sessao-produtos1').html(produtos1())
+    $('#sessao-produtos2').html(produtos2())
+  });
+////////////////////////////
+// FUNÇÃO DE MOSTRAR SENHA//
+////////////////////////////
+document.addEventListener('DOMContentLoaded', (event) => {
+    const showPasswordCheckbox = document.getElementById('showPassword');
+    const passwordInput = document.getElementById('password');
+  
+    showPasswordCheckbox.addEventListener('change', (event) => {
+      if (event.target.checked) {
+        passwordInput.type = 'text';
+      } else {
+        passwordInput.type = 'password';
+      }
+    });
+  });
+
 //////////////////////////////////////////////////////
 // FUNÇÃO DE PREENCHER A PRIMEIRA SESSÃO DE PRODUTOS//
 //////////////////////////////////////////////////////
